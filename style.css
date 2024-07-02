@@ -20,7 +20,13 @@ input{
     width: 290px;
     height:30px;
     border:none;
+    outline: none;
+    border: 2px solid rgb(222, 224, 223);
+    border-radius: 5px;
     padding: 0 0 0 5px;
+}
+input:focus{
+    border:2px solid blue !important;
 }
 .bodyform{
     display: flex;
@@ -35,9 +41,14 @@ input{
 .input-btn{
     width: 100px;
     height: 30px;
-    border-radius:10px;
+    border-radius:7px;
+    cursor: pointer;
+    font-size: 24x;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-2{
     margin-right: 12px;
+    background-color: red;
+    color: white;
 }
