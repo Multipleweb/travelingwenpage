@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traveling</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <form action="#">
+    <form action="#" onsubmit="return validation()">
         <div class="container">
             <div class="form">
                 <center><h4>Traveling login</h4></center>
                 <br>
                 <div class="bodyform">
                     <label for="username">User:</label>
-                    <input type="text" name="txtName" id="" class="name">
+                    <input type="text" name="txtName" id="name" class="name">
                     <label for="username">Password:</label>
-                    <input type="password" name="pwd" id="" class="pwd">
+                    <input type="password" name="pwd" id="pwd" class="pwd">
                     <label for="username">Confirm Password:</label>
-                    <input type="password" name="pwd" id="" class="pwd">
+                    <input type="password" name="pwd" id="cpwd" class="pwd">
                     <div class="btn-head">
                         <div>
-                            <input type="submit" value="Login" class="input-btn">
+                            <input type="submit" value="Login" class="input-btn" id="btnSubmit">
                         </div>
                         <div>
                             <input type="submit" value="Cancel" class="input-btn btn-2">
