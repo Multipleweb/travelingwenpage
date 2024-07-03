@@ -14,7 +14,9 @@ document.getElementById('generateBtn').addEventListener('click', function() {
         var qrcode = new QRCode(qrcodeContainer, {
             text: url,
             width: 230,
-            height: 230
+            height: 230,
+            padding:10,
+            background:'#F1F1F1',
         });
 
         document.getElementById('downloadPngBtn').style.display = 'block';
