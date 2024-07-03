@@ -1,3 +1,4 @@
+//validation form
 function validation () {
     var username = document.getElementById('name').value;
     var password = document.getElementById('pwd').value;
