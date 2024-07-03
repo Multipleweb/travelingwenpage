@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrborder{
+    width: 400px;
+    height: 300PX;
+    border-radius: 20px;
+    background-color: rgb(233, 234, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-url{
+    display: flex;
+    justify-content: space-between;
+}
+#urlInput{
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    border: none;
+    outline: none;
+    border: 2px solid blue;
+}
+#urlInput::placeholder{
+    color: rgb(190, 189, 189);
+}
+.qrcode{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(241, 242, 242);
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
