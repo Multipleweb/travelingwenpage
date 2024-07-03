@@ -1,16 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.head{
+
+.head {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.qrborder{
+
+.qrborder {
     width: 400px;
     height: 300PX;
     border-radius: 20px;
@@ -19,11 +21,13 @@
     justify-content: center;
     align-items: center;
 }
-.input-url{
+
+.input-url {
     display: flex;
     justify-content: space-between;
 }
-#urlInput{
+
+#urlInput {
     width: 200px;
     height: 35px;
     margin-top: 10px;
@@ -33,14 +37,17 @@
     outline: none;
     border: 2px solid blue;
 }
-#urlInput::placeholder{
+
+#urlInput::placeholder {
     color: rgb(190, 189, 189);
 }
-.qrcode{
+
+.qrcode {
     border-radius: 10px;
     padding: 20px;
     background-color: rgb(241, 242, 242);
 }
+
 button {
     padding: 10px 20px;
     margin-top: 10px;
@@ -53,4 +60,29 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 20px;
+        text-decoration: underline solid blue;
+    }
+    .qrborder{
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-url{
+        display: flex;
+        flex-direction: column;
+    }
+    #urlInput{
+        width: 100%;
+    }
+    .qrcode{
+        padding: 20px;
+        background-color: rgb(245, 244, 244);
+    }
 }

@@ -13,10 +13,8 @@ document.getElementById('generateBtn').addEventListener('click', function() {
         qrcodeContainer.innerHTML = '';
         var qrcode = new QRCode(qrcodeContainer, {
             text: url,
-            width: 230,
-            height: 230,
-            padding:10,
-            background:'#F1F1F1',
+            width: 180,
+            height: 180,
         });
 
         document.getElementById('downloadPngBtn').style.display = 'block';
